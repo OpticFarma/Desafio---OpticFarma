@@ -3,13 +3,16 @@ body {
   padding: 0;
   font-family: 'Barlow', 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
 }
 
 :root {
   --tamanho-header: 80px;
   --tamanho-banner: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
   --tamanho-simulador: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
-  --tamanho-login: calc(100vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
+  --tamanho-login: calc(110vh - var(--tamanho-header) - var(--tamanho-footer) - 2px);
   --tamanho-footer: 80px;
 }
 
@@ -61,8 +64,6 @@ body {
 
 .banner {
   height: var(--tamanho-banner);
-  background-image: url('../assets/fundo.png');
-  background-size: cover;
 }
 
 .banner .container {
@@ -115,10 +116,8 @@ body {
   text-align: center;
 }
 
-/* .login {
+.login {
   height: var(--tamanho-login);
-  background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
-  background-size: cover;
 }
 
 .login .container {
@@ -130,14 +129,13 @@ body {
 .card {
   width: 30%;
   background-color: #e5e5e5;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
   color: palevioletred;
   row-gap: 20px;
-} */
+}
 
 .card-cadastro {
   height: 80%;
@@ -152,7 +150,7 @@ body {
   font-size: 30px;
 }
 
-/* .formulario {
+.formulario {
   display: flex;
   height: 90%;
   width: 80%;
@@ -166,20 +164,20 @@ body {
 }
 
 .formulario input {
-  border: 2px solid #32b9cd;
+  border: 2px solid #fd9898;
   height: 30px;
   text-align: center;
   border-radius: 10px;
 }
 
 .formulario select {
-  border: 2px solid #32b9cd;
+  border: 2px solid #fd9898;
   background-color: white;
   color: gray;
   height: 36px;
   text-align: center;
   border-radius: 10px;
-} */
+}
 
 .campo {
   display: flex;
