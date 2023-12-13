@@ -1,0 +1,539 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-image: url(../assets/imgs/fundo.png);
+    background-size: cover;
+}
+
+#left_bar {
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 6vh;
+}
+
+#aqui {
+    background-color: #d3daf2;
+}
+
+.container .items .items_bar input {
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #78a3c2;
+}
+
+.container .items .items_bar select {
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #78a3c2;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+#user_in {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 70px;
+    justify-content: space-evenly;
+}
+
+/* ---------------------- fim navbar ----------------------*/
+
+img {
+    width: 20px;
+    vertical-align: -15%;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+#dashboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 75%;
+    height: 100vh;
+    padding-inline: 50px;
+    background: rgba(255, 255, 255, 0.615);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.linha {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 40%;
+}
+
+.chart-container {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: -4px 4px 0px 2px rgba(0, 0, 0, 0.1);
+    padding: 2%;
+    text-align: center;
+}
+
+#sinalSensor {
+    background-color: rgb(255, 96, 96);
+    width: 75%;
+    height: 30px;
+    border-radius: 25px;
+}
+
+#nivelAgua {
+    width: 40%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#kpi {
+    width: 40%;
+    height: 80%;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.parts {
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 15px;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.faixas{
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 15px;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ideal, .perigo, .critico, .alerta {
+    width: 90px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f0f0;
+}
+
+.ideal {
+    background-color: #26aa24;
+}
+
+.perigo {
+    background-color: #ff810a;
+}
+
+.alerta {
+    background-color: #f7cb18;
+}
+
+.critico {
+    background-color: #ff0000;
+}
+
+#alerta_kpi {
+    border-radius: 4px;
+    height: 10vh;
+}
+
+#alerta_kpi h2 {
+    color: white;
+    margin-left: 10px;
+}
+
+#kpi .info_kpi {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+.info_kpi .sensor_kpi {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info_kpi .manutencao_kpi {
+    width: 50%;
+}
+
+#manutencao {
+    font-size: larger;
+}
+
+#sensoresAtivados {
+    height: 80%;
+    width: 40%;
+    overflow-y: scroll;
+    overflow-y: hidden;
+}
+
+#kpi .info_kpi h3 {
+    font-size: medium;
+    font-weight: bolder
+}
+
+.abas {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    height: 70px;
+}
+
+.logo .frase {
+    width: 50%;
+}
+
+.logo .img_logo {
+    width: 20%;
+}
+
+.titulo_dash {
+    width: 100%;
+    display: flex;
+}
+
+.titulo_dash h2 {
+    align-self: flex-start;
+    font-size: 25px;
+    /* margin-right: 10px; */
+}
+
+#sensor1 {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: lime;
+}
+
+#sensor2 {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    background-color: lime;
+}
+
+/* ---------------------- inicio usuario -----------------------*/
+#usuarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    height: 100vh;
+    padding-inline: 50px;
+    background: rgba(255, 255, 255, 0.615);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+#formulario-cadastro {
+    width: 95%;
+    height: 60%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.card {
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    height: 550px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+}
+
+.atributo {
+    width: 100%;
+    display: flex;
+}
+
+.atributo-botao {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.campo input {
+    background-color: rgb(255, 255, 255);
+    width: 95%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0.5px solid #99aadb;
+    letter-spacing: 1px;
+}
+
+#nome_usuario,
+#email_usuario,
+#telefone_empresa,
+#email_empresa,
+#nome_empresa {
+    background-color: rgb(255, 255, 255);
+    width: 97.4%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 0.5px solid #99aadb;
+}
+
+.campo select {
+    background-color: rgb(255, 255, 255);
+    width: 99.7%;
+    height: 5vh;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0.5px solid #99aadb;
+}
+
+.campo {
+    flex-direction: column;
+    justify-content: space-evenly;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+.campo div {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#botao_cadastro {
+    background-color: rgb(94, 138, 176);
+    color: aliceblue;
+    align-self: end;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0.5px solid #99aadb;
+    width: 20%;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+#botao_cadastro a {
+    color: aliceblue;
+}
+
+#botao_apagar {
+    background-color: rgb(206, 75, 75);
+    color: aliceblue;
+    align-self: end;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 0.5px solid #99aadb;
+    width: 10%;
+    height: 40px;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-right: 5px;
+}
+
+#botao_viz {
+    background-color: rgb(136, 180, 219);
+    color: aliceblue;
+    align-self: end;
+    font-size: 18px;
+    border-radius: 20px;
+    border: 0.5px solid #99aadb;
+    width: 20%;
+    height: 40px;
+    cursor: pointer;
+}
+
+#cadastrousuario {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#usuariosCadastrados {
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#tituloUsuario {
+    font-size: 22px;
+    align-self: self-start;
+    margin-left: 10px;
+}
+
+#usuariosCadastrados button {
+    justify-self: self-end;
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #99aadb;
+    border: none;
+    font-weight: 700;
+    align-self: self-end;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#listaUsuarios {
+    width: 90%;
+    height: 60%;
+    background-color: #d3daf28c;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding: 5%;
+    box-shadow: 0 1px 10px 1px #436d8c;
+}
+
+.Usuario {
+    width: 50%;
+    height: fit-content;
+    min-height: 18vh;
+    border: 2px solid #78a3c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .55s width ease-in-out;
+    text-align: center;
+    background-color: #d3daf24d;
+    padding: 1%;
+}
+
+.Usuario:hover {
+    width: 55%;
+}
+
+hr {
+    border: 1px solid #78a3c2;
+}
+
+#usuariosCadastrados .Usuario button {
+    padding: 5px;
+    font-size: 17px;
+    align-self: center;
+    width: 100px;
+    background-color: #ff0f0f6d;
+}
+
+.Usuario h2 {
+    font-size: 20px;
+}
+
+.Usuario h3 {
+    font-size: 18px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #78a3c2;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #436d8c;
+}
