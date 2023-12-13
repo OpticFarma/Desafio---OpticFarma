@@ -3,6 +3,8 @@
 *,
 body {
   font-family: "Exo 2", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .label-captura {
@@ -85,7 +87,7 @@ body {
   padding: 20px;
 }
 
-.publicacao > *:not(:last-child) {
+.publicacao>*:not(:last-child) {
   padding: 0 0 10px 0;
 }
 
@@ -104,7 +106,7 @@ body {
   justify-content: flex-end;
 }
 
-.div-buttons > * {
+.div-buttons>* {
   margin-left: 30px;
 }
 
@@ -277,9 +279,56 @@ canvas {
   height: 100% !important;
 }
 
-.dash{
+.dash {
+  width: 80%;
+  height: 100vh;
   background-color: red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dash .titulo_dash {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: 10%;
+  /* background-color: blue; */
+}
+
+#formulario-cadastro {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: green; */
+  width: 100%;
+  height: 90%;
+}
+
+#formulario-cadastro .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 50%;
+  height: 90%;
+  border-radius: 20px;
+}
+
+#formulario-cadastro .card h3{
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+#formulario-cadastro .card button{
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+}
+
+#formulario-cadastro .card input{
+  width: 200px;
 }
