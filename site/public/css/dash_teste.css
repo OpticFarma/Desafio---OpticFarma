@@ -1,0 +1,33 @@
+* {
+    color: white;
+}
+
+#graficos {
+    background-color: #fff;
+    border-radius: 7px;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lado_grafico {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.kpi {
+    background-color: #af3333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.kpi h3 {
+    font-size: 25px;
+}
