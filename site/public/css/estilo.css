@@ -115,7 +115,7 @@ body {
   text-align: center;
 }
 
-.login {
+/* .login {
   height: var(--tamanho-login);
   background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
   background-size: cover;
@@ -137,7 +137,7 @@ body {
   flex-direction: column;
   color: palevioletred;
   row-gap: 20px;
-}
+} */
 
 .card-cadastro {
   height: 80%;
@@ -152,7 +152,7 @@ body {
   font-size: 30px;
 }
 
-.formulario {
+/* .formulario {
   display: flex;
   height: 90%;
   width: 80%;
@@ -179,7 +179,7 @@ body {
   height: 36px;
   text-align: center;
   border-radius: 10px;
-}
+} */
 
 .campo {
   display: flex;

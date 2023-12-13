@@ -1,0 +1,93 @@
+/* cadastro */
+
+.card-cadastro {
+    height: 100%;
+  }
+  
+  .card-login {
+    height: 60%;
+  }
+  
+  .card h2 {
+    margin: 0;
+    font-size: 30px;
+  }
+  
+  .formulario {
+    display: flex;
+    height: 90%;
+    width: 80%;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
+  .formulario span {
+    font-size: 15px;
+    font-weight: 800;
+  }
+  
+  .formulario input {
+    border: 2px solid #fd9898;
+    height: 30px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .formulario select {
+    border: 2px solid #fd9898;
+    background-color: white;
+    color: gray;
+    height: 36px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .campo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  
+  .botao {
+    cursor: pointer;
+    font-family: "Barlow", sans-serif;
+    border: 0;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+    background-color: #640808;
+    width: 120px;
+    height: 30px;
+    align-self: center;
+  }
+
+  .login {
+    height: var(--tamanho-login);
+    background-image: url("../assets/imgs/fundoCadastro.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #fff;
+    background-size: cover;
+  }
+  
+  .login .container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .card {
+    width: 30%;
+    background-color: #721919;
+    /* border-radius: 10px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    row-gap: 20px;
+  }
+
