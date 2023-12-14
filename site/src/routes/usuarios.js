@@ -12,4 +12,8 @@ router.post("/autenticar", function (req, res) {
     usuarioController.autenticar(req, res);
 });
 
+router.post("/cadastroDadosEmpresa", function (req, res) {
+    usuarioController.cadastroDadosEmpresa(req, res);
+});
+
 module.exports = router;

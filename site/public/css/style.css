@@ -41,7 +41,7 @@ body {
 
 
 .titulo {
-  color: #32b9cd;
+  color: #AF3333;
   width: fit-content;
   font-weight: 500;
 }
@@ -270,7 +270,7 @@ input {
 }
 
 .header-left h1 {
-  color: #32b9cd;
+  color: #AF3333;
 }
 
 .hello {
@@ -292,7 +292,7 @@ input {
 .btn-nav {
   width: 40%;
   color: white;
-  background-color: #e6005a;
+  background-color: #AF3333;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
@@ -301,7 +301,7 @@ input {
 .btn-nav-white {
   width: 40%;
   background-color: white;
-  border: 3px solid #e6005a;
+  border: 3px solid #AF3333;
   border-radius: 5px;
   text-align: center;
   padding: 2% 5%;
@@ -323,7 +323,7 @@ input {
   margin: 0;
   padding: 0;
   width: 20%;
-  background-color: #32b9cd;
+  background-color: #bb6464;
   color: white;
   border-radius: 10px;
   text-align: center;

@@ -121,7 +121,7 @@ body {
   position: relative;
   top: 0;
   left: 20%;
-  background-color: #161618;
+  background-color: #AF3333;
   height: 100vh;
   overflow: auto;
 }
@@ -282,7 +282,7 @@ canvas {
 .dash {
   width: 80%;
   height: 100vh;
-  background-color: red;
+  background-color: #AF3333;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -294,7 +294,7 @@ canvas {
   align-items: center;
   width: 80%;
   height: 10%;
-  /* background-color: blue; */
+  color: white;
 }
 
 #formulario-cadastro {
@@ -310,7 +310,7 @@ canvas {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   background-color: white;
   width: 50%;
   height: 90%;
@@ -324,11 +324,15 @@ canvas {
 
 #formulario-cadastro .card button{
   margin-top: 20px;
-  width: 100px;
+  width: 150px;
   height: 30px;
   border-radius: 20px;
+  border: 1px solid #AF3333;
+
 }
 
 #formulario-cadastro .card input{
   width: 200px;
+  border: 1px solid #AF3333;
+
 }

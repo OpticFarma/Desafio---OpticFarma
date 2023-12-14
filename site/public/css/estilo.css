@@ -64,6 +64,9 @@ body {
 
 .banner {
   height: var(--tamanho-banner);
+  background-image: url('../assets/fundo.png');
+  background-size: cover;
+  width: 100%;
 }
 
 .banner .container {
@@ -87,6 +90,7 @@ body {
   background-color: #af333315;
   display: flex;
   height: 600px;
+  width: 100%;
 }
 
 .social .container {
